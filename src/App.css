@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+
+body{
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Chango', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+  background-color: #FCF5C4;
+  width: 100%;
+  display:grid;
+  grid-template-areas: 
+  "h h"
+  "n c";
+  grid-gap: 15px;
+  grid-template-columns: 1fr 5fr;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar,.profile,.header{
+  margin: 0;
+  padding: 10px;
+  background-color: #6CA1F8;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+grid-area: h;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.navbar{
+grid-area: n;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.content{
+grid-area: c;
 }
+
+
+
