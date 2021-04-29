@@ -1,0 +1,24 @@
+.user1{
+	list-style: none;
+
+}
+
+.messages{
+	border: 2px dotted black;
+
+}
+
+.dialogue{
+	 background-color: #6CA1F8;
+	 display: grid;
+	 grid-template-columns: 2fr 5fr;
+}
+
+.users{
+	font-weight: bold;
+}
+
+.user1 li{
+	margin: 5px 0;
+	background-color: #51BEFC;
+}
