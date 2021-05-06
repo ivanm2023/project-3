@@ -8,8 +8,8 @@ import {BrowserRouter} from 'react-router-dom'
 function Nav(){
   return(
     <div className="navbar">
-   <NavLink to="/Content">Profile</NavLink>
-   <NavLink to="/Dialogue">Messages</NavLink>
+   <NavLink to="/content">Profile</NavLink>
+   <NavLink to="/dialogue">Messages</NavLink>
    <NavLink to="/users">Users</NavLink>
     </div>
   )

@@ -18,7 +18,27 @@
 	font-weight: bold;
 }
 
-.user1 li{
+.user1 a{
 	margin: 5px 0;
 	background-color: #51BEFC;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.user1 a:hover{
+	cursor: pointer;
+}
+
+
+input{
+	border-radius: 10px;
+	font-size: 20px;
+	outline: none;
+}
+
+button{
+	font-size: 20px;
+	border-radius: 10px;
+	margin-left: 8px;
 }
