@@ -1,14 +1,13 @@
 import react from 'react'
-import gena1 from '../../../img/small_gorin.jpg'
+import Profile_info from './profile/profile_info.jsx'
 
 
 
 function Post(props){
 	return(
 		<div className="post">
-			<img src={gena1}/>
-			<span>Genadii Gorin</span>
-			<p>{props.message}</p>
+			<Profile_info/>
+			<p>{props.text}</p>
 		</div>
 	)
 }
